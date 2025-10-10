@@ -133,32 +133,32 @@ body {
   padding-top: 2rem;
   gap: 1.5rem;
 
-    .tech-container {
-        width: 50%;
-        display: flex;
-        gap: 2rem;
-        padding: 1rem;
-        justify-content: center;
-        flex-direction: column;
+  .tech-container {
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
 
-          .text-tech-stack {
-            text-align: left;
+    .text-tech-stack {
+      text-align: left;
 
-            p {
-            margin-top: 0.5rem;
-            }
-        }
+      p {
+        margin-top: 0.5rem;
+      }
     }
+  }
 
-
-.skills-top{
+  .skills-top {
     display: flex;
     justify-content: center;
-    gap: 4rem;
-}
+    gap: 3rem;
+  }
   article {
-    width: auto;
+    width: 350px;
     display: flex;
+    max-width: 600px;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1rem;
@@ -182,12 +182,20 @@ body {
         justify-content: center;
         gap: 0.5rem;
         text-align: center;
+        height: 80px;
+        width: 80px;
       }
 
       svg {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
       }
     }
+  }
+
+  .skills-botoom {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
   }
 }
